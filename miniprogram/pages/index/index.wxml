@@ -1,0 +1,19 @@
+<!-- 轮播图 -->
+<view class="index-page">
+  <swiper class="swiper" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{circular}}" indicator-active-color="#ffffff">
+    <block wx:for="{{imgUrls}}" wx:key="*this">
+      <swiper-item>
+        <image src="{{item}}" class="swiper-img" />
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class="example">
+      <view class="marquee_box">
+          <image src="{{adUrl}}" class='ad-image' />
+        </view>
+    </view>
+  <view class="type-container">
+  <image class="type-item-left" src="/pages/images/wash.png" bindtap="go"></image>
+  <image class="type-item-right" src="/pages/images/shop.png"></image>
+  </view>    
+</view>

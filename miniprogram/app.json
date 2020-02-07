@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/me/me",
+    "pages/goods/goods",
+    "pages/order_wash/wash"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "洗衣房",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#bfbfbf",
+    "selectedColor": "#298BEF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/pages/images/index.png",
+        "selectedIconPath": "/pages/images/selected_index.png"
+      },
+      {
+        "pagePath": "pages/goods/goods",
+        "text": "订单",
+        "iconPath": "/pages/images/goods.png",
+        "selectedIconPath": "/pages/images/selected_goods.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "/pages/images/me.png",
+        "selectedIconPath": "/pages/images/selected_me.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
